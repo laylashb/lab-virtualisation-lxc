@@ -15,7 +15,9 @@ ip addr show lxdbr0
 
 <img width="945" height="1087" alt="image" src="https://github.com/user-attachments/assets/02f7b9c4-4dcf-4073-bd23-04e100ccbe6a" />
 
-Côté containeur : 
+
+## Côté containeur :
+
 <img width="945" height="603" alt="image" src="https://github.com/user-attachments/assets/3fcb91ea-fd28-46a6-bf9e-35b2f435e06c" />
 
 **Concepts clés**
