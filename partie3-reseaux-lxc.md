@@ -9,14 +9,10 @@ ip a
 ip addr show lxdbr0
 ```
 
-<!-- CAPTURE : résultat de lxc network show lxdbr0 -->
+<img width="945" height="1087" alt="image" src="https://github.com/user-attachments/assets/02f7b9c4-4dcf-4073-bd23-04e100ccbe6a" />
 
-<!-- CAPTURE : résultat de ip a côté hôte et côté container -->
-
-**Objectifs démontrés :**
-- Prouver que le container possède sa propre pile réseau : `ip a` et `ip route`
-- Démontrer le fonctionnement du bridge : `ip a` et `ip link show lxdbr0`
-- Expliquer le rôle du NAT : `ping 8.8.8.8`
+Côté containeur : 
+<img width="945" height="603" alt="image" src="https://github.com/user-attachments/assets/3fcb91ea-fd28-46a6-bf9e-35b2f435e06c" />
 
 **Concepts clés**
 
