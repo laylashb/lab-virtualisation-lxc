@@ -4,6 +4,9 @@ Dans cette partie on a exploré comment LXD gère le réseau de ses containers.Q
 
 Chaque container reçoit une interface eth0 qui est en réalité une paire d'interfaces virtuelles appelée veth : une extrémité dans le container, l'autre attachée au bridge sur l'hôte.
 
+<img width="945" height="360" alt="image" src="https://github.com/user-attachments/assets/f4f7108b-3910-416a-bdf2-a61b3402c7a7" />
+
+
 ```bash
 lxc network show lxdbr0
 ip route
