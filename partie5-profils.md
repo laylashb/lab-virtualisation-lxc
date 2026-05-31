@@ -10,9 +10,12 @@ lxc exec alpine323-container -- sh
 lxc config show alpine323-container
 ```
 
-<!-- CAPTURE : lxc exec alpine323-container -- sh, ls /mnt/webdata et cat test.txt -->
+<img width="945" height="571" alt="image" src="https://github.com/user-attachments/assets/d5a61717-5709-43a4-b4cc-0867e89a72ff" />
 
-<!-- CAPTURE : lxc config show alpine323-container avec le profil web-profile appliqué -->
+<img width="945" height="197" alt="image" src="https://github.com/user-attachments/assets/d9b471ab-8a5b-46fb-b790-224818296cea" />
+
+<img width="945" height="525" alt="image" src="https://github.com/user-attachments/assets/ccefee11-6c44-4e05-bee1-1665115b7779" />
+
 
 **Profil LXD** : modèle de configuration réutilisable qui définit des paramètres (limites de ressources, périphériques, réseau, volumes) pour les conteneurs.
 
