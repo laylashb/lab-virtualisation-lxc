@@ -1,5 +1,9 @@
 # Partie 3 — Réseaux LXD
 
+Dans cette partie on a exploré comment LXD gère le réseau de ses containers.Quand LXD crée un container, il crée automatiquement un bridge virtuel appelé lxdbr0 qui agit comme un switch logiciel — tous les containers s'y connectent. 
+
+Chaque container reçoit une interface eth0 qui est en réalité une paire d'interfaces virtuelles appelée veth : une extrémité dans le container, l'autre attachée au bridge sur l'hôte.
+
 ```bash
 lxc network show lxdbr0
 ip route
