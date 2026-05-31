@@ -15,10 +15,14 @@ lxc launch images:alpine/3.21 tp-alpine
 ```
  
 Premiers tests du conteneur et comparaisons avec l'hôte : hostname, PID du shell courant, version du kernel.
- 
-<!-- CAPTURE : résultat des commandes hostname, echo $$, uname -r depuis l'hôte et depuis le container -->
+
+<img width="945" height="590" alt="image" src="https://github.com/user-attachments/assets/bd7b1e98-1b95-4d88-a378-d4a643b00557" />
+
  
 > **Observation** : même version du kernel chez l'hôte et le container, mais hostname et PID du shell courant différents.
+
+<img width="945" height="1348" alt="image" src="https://github.com/user-attachments/assets/cb33edbd-d960-470b-9d0c-baf5bfe791e8" />
+
  
 ---
 
