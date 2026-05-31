@@ -5,8 +5,24 @@ Commandes utilisées :
 ```bash
 lsns                        # afficher les namespaces présents sur l'hôte
 ps -ef | grep tp-alpine     # identifier le PID du container
+```
+<img width="945" height="526" alt="image" src="https://github.com/user-attachments/assets/08515476-a170-4225-a54f-94bbc1dad1ac" />
+<img width="945" height="519" alt="image" src="https://github.com/user-attachments/assets/2500e8b4-7305-489a-a73e-d4f1fea2ff87" />
+
+```bash
 apk add iproute2            # installer les outils réseau dans le container
 ```
+Observer les points de montage dans le container avec mount 
+<img width="945" height="278" alt="image" src="https://github.com/user-attachments/assets/72575d5c-d571-4d18-aaaf-fe8d1f142b17" />
+
+Entrer dans le container 
+<img width="597" height="250" alt="image" src="https://github.com/user-attachments/assets/0ca00ae6-c246-4823-b095-3c8704b2e891" />
+
+Observer les montages du container 
+<img width="945" height="174" alt="image" src="https://github.com/user-attachments/assets/c1cbf84c-2e18-4550-91b6-85aaa353e1a5" />
+
+Vérifier les processus liés au PID du container 
+<img width="945" height="267" alt="image" src="https://github.com/user-attachments/assets/6384d73e-1ae3-4488-bdcb-a4af16a35b18" />
 
 ---
 
