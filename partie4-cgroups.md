@@ -16,10 +16,10 @@ lxc config set tp-alpine limits.memory 512MiB
 lxc config show tp-alpine
 ```
 
-<!-- CAPTURE : résultat de lxc config show tp-alpine avec les limites appliquées -->
+<img width="945" height="342" alt="image" src="https://github.com/user-attachments/assets/bd8cd697-295a-46f3-926e-c52268f3d503" />
 
 Pour générer de la charge dans le conteneur, on télécharge un outil de test, puis on lance une charge CPU et mémoire.
 
-<!-- CAPTURE : htop depuis le container montrant la limite à 512M -->
+<img width="945" height="318" alt="image" src="https://github.com/user-attachments/assets/faa63834-99fe-40e1-851c-c924f2f40de3" />
 
 ---
