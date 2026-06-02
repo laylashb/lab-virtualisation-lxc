@@ -67,31 +67,4 @@ lxc list
 
 ---
 
-lab-virtualisation-lxc/
-├── README.md
-
-├── partie1-containers.md
-
-├── partie2-namespaces.md
-
-├── partie3-reseaux-lxd.md
-
-├── partie4-cgroups.md
-
-├── partie5-profils.md
-
-├── partie6-stockage-snapshots.md
-
-├── partie7-securite.md
-
-├── partie8-container-vs-vm.md
-
-├── partie9-publication-image.md
-
-├── partie10-supervision.md
-
-└── partie11-challenge-final.md
-
----
-
 *Projet réalisé dans le cadre de la prépa Mastère Cybersécurité — IPSSI 2026*
